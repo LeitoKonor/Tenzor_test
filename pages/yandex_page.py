@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 class YandexPage:
     SEARCH_FIELD = (By.XPATH, '//*[@id="text"]')
     SEARCH_SUGGESTIONS_TABLE = (By.CSS_SELECTOR, '.search3')
-    SEARCH_RESULTS_PAGE = (By.CSS_SELECTOR, '#search-result')
-    FIRST_SEARCH_RESULT_LINK = (By.CSS_SELECTOR, '.Bno > div:nth-child(1) > a:nth-child(1)')
+    SEARCH_RESULTS_PAGE = (By.CSS_SELECTOR, '.main__content')
+    FIRST_SEARCH_RESULT_LINK = (By.XPATH, '/html/body/main/div[2]/div[2]/div/div[1]/ul/li[1]/div/div[1]/a')
 
     def __init__(self, browser):
         self.browser = browser
