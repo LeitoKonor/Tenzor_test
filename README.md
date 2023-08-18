@@ -15,4 +15,6 @@ git clone git@github.com:LeitoKonor/Tenzor_test.git
 
 cd Tenzor_test
 
-make start
+make start (to start the first test)
+
+make start (to start the second test)

@@ -5,7 +5,7 @@ from pages.yandex_page import YandexPage
 @pytest.fixture
 def browser():
     driver = webdriver.Chrome()
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(30)
     yield driver
     driver.quit()
 
