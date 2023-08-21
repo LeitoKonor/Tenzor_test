@@ -17,4 +17,4 @@ cd Tenzor_test
 
 make start (to start the first test)
 
-make start (to start the second test)
+make start_2 (to start the second test)
